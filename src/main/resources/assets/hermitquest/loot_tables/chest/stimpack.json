@@ -1,0 +1,284 @@
+{
+	"pools": [
+        {
+			"name": "pot00",
+			"rolls": {
+                "min": 0,
+                "max": 2
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:healing\"}"
+						}
+					]
+				}
+			]
+        },
+        {
+			"name": "pot01",
+			"rolls": {
+                "min": 0,
+                "max": 2
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:strong_healing\"}"
+						}
+					]
+				}
+			]
+        },
+        {
+			"name": "pot02",
+			"rolls": {
+                "min": 0,
+                "max": 2
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:fire_resistance\"}"
+						}
+					]
+				}
+			]
+        },
+        {
+			"name": "pot03",
+			"rolls": {
+                "min": 0,
+                "max": 2
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:long_fire_resistance\"}"
+						}
+					]
+				}
+			]
+        },
+        {
+			"name": "pot04",
+			"rolls": {
+                "min": 0,
+                "max": 2
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:regeneration\"}"
+						}
+					]
+				}
+			]
+        },
+        {
+			"name": "pot05",
+			"rolls": {
+                "min": 0,
+                "max": 2
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:long_regeneration\"}"
+						}
+					]
+				}
+			]
+        },
+        {
+			"name": "pot06",
+			"rolls": {
+                "min": 0,
+                "max": 2
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:strong_regeneration\"}"
+						}
+					]
+				}
+			]
+        },
+        {
+			"name": "pot10",
+			"rolls": {
+                "min": 0,
+                "max": 2
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:splash_potion",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:healing\"}"
+						}
+					]
+				}
+			]
+        },
+        {
+			"name": "pot11",
+			"rolls": {
+                "min": 0,
+                "max": 2
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:splash_potion",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:strong_healing\"}"
+						}
+					]
+				}
+			]
+        },
+        {
+			"name": "pot12",
+			"rolls": {
+                "min": 0,
+                "max": 2
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:splash_potion",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:fire_resistance\"}"
+						}
+					]
+				}
+			]
+        },
+        {
+			"name": "pot13",
+			"rolls": {
+                "min": 0,
+                "max": 2
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:splash_potion",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:long_fire_resistance\"}"
+						}
+					]
+				}
+			]
+        },
+        {
+			"name": "pot14",
+			"rolls": {
+                "min": 0,
+                "max": 2
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:splash_potion",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:regeneration\"}"
+						}
+					]
+				}
+			]
+        },
+        {
+			"name": "pot15",
+			"rolls": {
+                "min": 0,
+                "max": 2
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:splash_potion",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:long_regeneration\"}"
+						}
+					]
+				}
+			]
+        },
+        {
+			"name": "pot16",
+			"rolls": {
+                "min": 0,
+                "max": 2
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:splash_potion",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:strong_regeneration\"}"
+						}
+					]
+				}
+			]
+        }
+	]
+}

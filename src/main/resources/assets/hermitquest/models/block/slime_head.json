@@ -1,0 +1,12 @@
+{
+	"parent": "block/cube",
+	"textures": {
+		"down": "hermitquest:blocks/slime_head_side",
+		"up": "hermitquest:blocks/slime_head_side",
+		"north": "hermitquest:blocks/slime_head_side",
+		"south": "hermitquest:blocks/slime_head_face",
+		"west": "hermitquest:blocks/slime_head_side",
+		"east": "hermitquest:blocks/slime_head_side",
+		"particle": "hermitquest:blocks/slime_head_side"
+	}
+}

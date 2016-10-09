@@ -1,0 +1,351 @@
+{
+	"mute": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:mute", "stream": false}
+		]
+	}
+	,"xisuma_idle": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:xisuma_say1", "stream": false}
+			,{"name": "hermitquest:xisuma_say2", "stream": false}
+		]
+	}
+	,"xisuma_hurt": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:xisuma_hurt1", "stream": false}
+		]
+	}
+	,"xisuma_die": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:xisuma_die1", "stream": false}
+			,{"name": "hermitquest:xisuma_die2", "stream": false}
+		]
+	}
+	,"evilxisuma_idle": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:evilxisuma_say1", "stream": false}
+			,{"name": "hermitquest:evilxisuma_say2", "stream": false}
+		]
+	}
+	,"evilxisuma_hurt": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:evilxisuma_hurt1", "stream": false}
+		]
+	}
+	,"evilxisuma_die": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:evilxisuma_die1", "stream": false}
+			,{"name": "hermitquest:evilxisuma_die2", "stream": false}
+		]
+	}
+	,"iskall_say": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:iskall_say1", "stream": false}
+			,{"name": "hermitquest:iskall_say2", "stream": false}
+		]
+	}
+	,"iskall_hurt": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:iskall_hurt1", "stream": false}
+		]
+	}
+	,"iskall_die": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:iskall_die1", "stream": false}
+		]
+	}
+	,"wels_say": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:wels_say1", "stream": false}
+			,{"name": "hermitquest:wels_say2", "stream": false}
+			,{"name": "hermitquest:wels_say3", "stream": false}
+		]
+	}
+	,"wels_hurt": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:wels_hurt1", "stream": false}
+		]
+	}
+	,"wels_die": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:wels_die1", "stream": false}
+			,{"name": "hermitquest:wels_die2", "stream": false}
+		]
+	}
+	,"rendog_say": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:rendog_say1", "stream": false}
+			,{"name": "hermitquest:rendog_say2", "stream": false}
+			,{"name": "hermitquest:rendog_say3", "stream": false}
+			,{"name": "hermitquest:rendog_say4", "stream": false}
+		]
+	}
+	,"rendog_hurt": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:rendog_hurt1", "stream": false}
+			,{"name": "hermitquest:rendog_hurt2", "stream": false}
+			,{"name": "hermitquest:rendog_hurt3", "stream": false}
+		]
+	}
+	,"rendog_die": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:rendog_die1", "stream": false}
+		]
+	}
+	,"false_say": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:false_say1", "stream": false}
+			,{"name": "hermitquest:false_say2", "stream": false}
+		]
+	}
+	,"false_hurt": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:false_hurt1", "stream": false}
+		]
+	}
+	,"false_die": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:false_die1", "stream": false}
+			,{"name": "hermitquest:false_die2", "stream": false}
+		]
+	}
+	,"biffa_say": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:biffa_say1", "stream": false}
+		]
+	}
+	,"biffa_hurt": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:biffa_hurt1", "stream": false}
+			,{"name": "hermitquest:biffa_hurt2", "stream": false}
+		]
+	}
+	,"biffa_die": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:biffa_die1", "stream": false}
+			,{"name": "hermitquest:biffa_die2", "stream": false}
+		]
+	}
+	,"joe_say": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:joe_say1", "stream": false}
+		]
+	}
+	,"joe_hurt": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:joe_hurt1", "stream": false}
+		]
+	}
+	,"zueljin_say": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:zueljin_say1", "stream": false}
+			,{"name": "hermitquest:zueljin_say2", "stream": false}
+		]
+	}
+	,"zueljin_hurt": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:zueljin_hurt1", "stream": false}
+			,{"name": "hermitquest:zueljin_hurt2", "stream": false}
+		]
+	}
+	,"zueljin_die": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:zueljin_die1", "stream": false}
+			,{"name": "hermitquest:zueljin_die2", "stream": false}
+		]
+	}
+	,"cubfan_say": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:cubfan_say1", "stream": false}
+		]
+	}
+	,"cubfan_hurt": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:cubfan_hurt1", "stream": false}
+			,{"name": "hermitquest:cubfan_hurt2", "stream": false}
+		]
+	}
+	,"cubfan_die": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:cubfan_die1", "stream": false}
+		]
+	}
+	,"cleo_say": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:cleo_say1", "stream": false}
+			,{"name": "hermitquest:cleo_say2", "stream": false}
+		]
+	}
+	,"cleo_hurt": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:cleo_hurt1", "stream": false}
+			,{"name": "hermitquest:cleo_hurt2", "stream": false}
+		]
+	}
+	,"cleo_die": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:cleo_die1", "stream": false}
+			,{"name": "hermitquest:cleo_die2", "stream": false}
+			,{"name": "hermitquest:cleo_die3", "stream": false}
+			,{"name": "hermitquest:cleo_die4", "stream": false}
+		]
+	}
+	,"python_say": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:python_say1", "stream": false}
+			,{"name": "hermitquest:python_say2", "stream": false}
+			,{"name": "hermitquest:python_say3", "stream": false}
+			,{"name": "hermitquest:python_say4", "stream": false}
+		]
+	}
+	,"python_hurt": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:python_hurt1", "stream": false}
+			,{"name": "hermitquest:python_hurt2", "stream": false}
+			,{"name": "hermitquest:python_hurt3", "stream": false}
+			,{"name": "hermitquest:python_hurt4", "stream": false}
+		]
+	}
+	,"python_die": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:python_die1", "stream": false}
+			,{"name": "hermitquest:python_die2", "stream": false}
+			,{"name": "hermitquest:python_die3", "stream": false}
+		]
+	}
+	,"scar_say": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:scar_say1", "stream": false}
+			,{"name": "hermitquest:scar_say2", "stream": false}
+			,{"name": "hermitquest:scar_say3", "stream": false}
+			,{"name": "hermitquest:scar_say4", "stream": false}
+		]
+	}
+	,"scar_hurt": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:scar_hurt1", "stream": false}
+			,{"name": "hermitquest:scar_hurt2", "stream": false}
+			,{"name": "hermitquest:scar_hurt3", "stream": false}
+		]
+	}
+	,"scar_die": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:scar_die1", "stream": false}
+			,{"name": "hermitquest:scar_die2", "stream": false}
+		]
+	}
+	,"rock_crack": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:rock_crack1", "stream": false}
+			,{"name": "hermitquest:rock_crack3", "stream": false}
+			,{"name": "hermitquest:rock_crack4", "stream": false}
+			,{"name": "hermitquest:rock_crack5", "stream": false}
+			,{"name": "hermitquest:rock_crack6", "stream": false}
+		]
+	}
+	,"itemup": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:itemup", "stream": false}
+		]
+	}
+	,"beam_shot": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:beam_shot1", "stream": false}
+		]
+	}
+	,"beam_hit": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:beam_hit1", "stream": false}
+			,{"name": "hermitquest:beam_hit2", "stream": false}
+		]
+	}
+	,"poop_splat": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:poop_splat1", "stream": false}
+		]
+	}
+	,"fireball_shoot": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:fireball_shoot1", "stream": false}
+		]
+	}
+	,"leaves_hiss": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:leaves_hiss1", "stream": false}
+			,{"name": "hermitquest:leaves_hiss2", "stream": false}
+			,{"name": "hermitquest:leaves_hiss3", "stream": false}
+		]
+	}
+	,"lady_zombie_say": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:lady_zombie_say1", "stream": false}
+		]
+	}
+	,"lady_zombie_hurt": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:lady_zombie_hurt1", "stream": false}
+		]
+	}
+	,"lady_zombie_die": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:lady_zombie_die1", "stream": false}
+		]
+	}
+	,"jellie_purr": {
+		"category": "master"
+		,"sounds": [
+			{"name": "hermitquest:jellie_purr1", "stream": false}
+			,{"name": "hermitquest:jellie_purr2", "stream": false}
+			,{"name": "hermitquest:jellie_purr3", "stream": false}
+		]
+	}
+}

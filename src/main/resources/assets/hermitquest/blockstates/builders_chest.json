@@ -1,0 +1,21 @@
+{
+	"forge_marker": 1,
+	"variants": {
+		"facing=east": {
+			"model": "hermitquest:builders_chest",
+			"y": 270
+		},
+		"facing=south": {
+			"model": "hermitquest:builders_chest",
+			"y": 0
+		},
+		"facing=west": {
+			"model": "hermitquest:builders_chest",
+			"y": 90
+		},
+		"facing=north": {
+			"model": "hermitquest:builders_chest",
+			"y": 180
+		}
+    }
+}

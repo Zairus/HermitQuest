@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "hermitquest:blocks/crown_in_stone"
+    }
+}

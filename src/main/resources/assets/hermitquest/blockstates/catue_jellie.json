@@ -1,0 +1,21 @@
+{
+	"forge_marker": 1,
+	"variants": {
+		"facing=east": {
+			"model": "hermitquest:catue_jellie",
+			"y": 180
+		},
+		"facing=south": {
+			"model": "hermitquest:catue_jellie",
+			"y": 270
+		},
+		"facing=west": {
+			"model": "hermitquest:catue_jellie",
+			"y": 0
+		},
+		"facing=north": {
+			"model": "hermitquest:catue_jellie",
+			"y": 90
+		}
+    }
+}

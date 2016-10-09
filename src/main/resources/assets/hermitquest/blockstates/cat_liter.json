@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "hermitquest:cat_liter" },
+            { "model": "hermitquest:cat_liter", "y": 90 },
+            { "model": "hermitquest:cat_liter", "y": 180 },
+            { "model": "hermitquest:cat_liter", "y": 270 }
+        ]
+    }
+}

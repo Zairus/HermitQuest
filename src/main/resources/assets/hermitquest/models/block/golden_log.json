@@ -1,0 +1,7 @@
+{
+	"parent": "block/cube_column",
+	"textures": {
+		"end": "hermitquest:blocks/log_golden_top",
+		"side": "hermitquest:blocks/log_golden"
+	}
+}

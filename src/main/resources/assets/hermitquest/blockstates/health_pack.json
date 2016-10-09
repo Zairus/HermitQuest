@@ -1,0 +1,21 @@
+{
+	"forge_marker": 1,
+	"variants": {
+		"facing=east": {
+			"model": "hermitquest:health_pack",
+			"y": 270
+		},
+		"facing=south": {
+			"model": "hermitquest:health_pack",
+			"y": 0
+		},
+		"facing=west": {
+			"model": "hermitquest:health_pack",
+			"y": 90
+		},
+		"facing=north": {
+			"model": "hermitquest:health_pack",
+			"y": 180
+		}
+    }
+}

@@ -1,0 +1,14 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "hermitquest:items/waggle_sword"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"blocking": 1
+			},
+			"model": "hermitquest:item/waggle_sword_waggle"
+		}
+	]
+}

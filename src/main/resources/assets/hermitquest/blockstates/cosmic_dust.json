@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "hermitquest:cosmic_dust" },
+            { "model": "hermitquest:cosmic_dust", "y": 90 },
+            { "model": "hermitquest:cosmic_dust", "y": 180 },
+            { "model": "hermitquest:cosmic_dust", "y": 270 }
+        ]
+    }
+}

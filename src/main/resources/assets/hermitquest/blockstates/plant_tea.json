@@ -1,0 +1,6 @@
+{
+	"variants": {
+		"type=0": { "model": "hermitquest:plant_tea" }
+		,"type=1": { "model": "hermitquest:plant_tea" }
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"parent": "block/cube",
+	"textures": {
+		"particle": "hermitquest:blocks/hermit_summoner_side",
+		"down": "hermitquest:blocks/hermit_summoner_bottom",
+		"up": "hermitquest:blocks/hermit_summoner_top",
+		"north": "hermitquest:blocks/hermit_summoner_side",
+		"east": "hermitquest:blocks/hermit_summoner_side",
+		"south": "hermitquest:blocks/hermit_summoner_side",
+		"west": "hermitquest:blocks/hermit_summoner_side"
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"variants": {
+		"facing=east": {
+			"model": "hermitquest:coffee_mug",
+			"y": 270
+		},
+		"facing=south": {
+			"model": "hermitquest:coffee_mug",
+			"y": 0
+		},
+		"facing=west": {
+			"model": "hermitquest:coffee_mug",
+			"y": 90
+		},
+		"facing=north": {
+			"model": "hermitquest:coffee_mug",
+			"y": 180
+		}
+	}
+}
