@@ -8,6 +8,7 @@ import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import net.minecraftforge.fml.common.registry.EntityRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+import zairus.hermitquest.HQConfig;
 import zairus.hermitquest.HermitQuest;
 import zairus.hermitquest.client.renderer.RenderFactory;
 import zairus.hermitquest.client.renderer.entity.RenderDiabloElPollo;
@@ -49,9 +50,13 @@ public class HQEntities
 		registerEntity(EntityThrowableBook.class, "throwableBook", 160, 1, true);
 		registerEntity(EntityThrowableTorch.class, "throwableTorch", 160, 1, true);
 		
-		EntityRegistry.addSpawn(EntityDiabloElPollo.class, 5, 0, 1, EnumCreatureType.MONSTER, Biomes.HELL);
+		if (HQConfig.spawn_diablo)
+			EntityRegistry.addSpawn(EntityDiabloElPollo.class, 5, 0, 1, EnumCreatureType.MONSTER, Biomes.HELL);
+		
+		if (HQConfig.spawn_swampsnake)
+			EntityRegistry.addSpawn(EntitySmallSnake.class, 5, 0, 1, EnumCreatureType.MONSTER, Biomes.SWAMPLAND);
+		
 		EntityRegistry.addSpawn(EntityLadyZombie.class, 5, 0, 1, EnumCreatureType.MONSTER, Biomes.HELL);
-		EntityRegistry.addSpawn(EntitySmallSnake.class, 5, 0, 1, EnumCreatureType.MONSTER, Biomes.SWAMPLAND);
 		for (Biome biome : Biome.REGISTRY)
 		{
 			if (

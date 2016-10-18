@@ -10,6 +10,7 @@ import net.minecraft.entity.ai.EntityAILeapAtTarget;
 import net.minecraft.entity.ai.EntityAINearestAttackableTarget;
 import net.minecraft.entity.passive.EntityChicken;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemAxe;
 import net.minecraft.item.ItemStack;
@@ -50,7 +51,12 @@ public class EntityDiabloElPollo extends EntityChicken
 	public boolean getCanSpawnHere()
 	{
 		IBlockState iblockstate = this.worldObj.getBlockState((new BlockPos(this)).down());
-		return iblockstate.func_189884_a(this);
+		boolean canspawn = iblockstate.func_189884_a(this);
+		
+		if (iblockstate.getBlock() == Blocks.BEDROCK)
+			canspawn = false;
+		
+		return canspawn;
 	}
 	
 	@Override
@@ -122,5 +128,11 @@ public class EntityDiabloElPollo extends EntityChicken
 		
 		if (boss != null)
 			boss.decreaseMinion();
+	}
+	
+	@Override
+	protected boolean canDespawn()
+	{
+		return true;
 	}
 }

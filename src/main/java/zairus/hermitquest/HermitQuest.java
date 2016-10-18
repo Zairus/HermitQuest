@@ -49,6 +49,8 @@ public class HermitQuest
 		
 		HermitQuest.proxy.preInit(event);
 		
+		HQConfig.init(event.getSuggestedConfigurationFile());
+		
 		HQSoundEvents.register();
 	}
 	
