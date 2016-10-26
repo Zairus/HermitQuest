@@ -16,6 +16,7 @@ import net.minecraft.item.ItemAxe;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.EnumDifficulty;
 import net.minecraft.world.World;
 import zairus.hermitquest.entity.boss.EntityHermitBoss;
 
@@ -52,6 +53,9 @@ public class EntityDiabloElPollo extends EntityChicken
 	{
 		IBlockState iblockstate = this.worldObj.getBlockState((new BlockPos(this)).down());
 		boolean canspawn = iblockstate.func_189884_a(this);
+		
+		if (canspawn)
+			canspawn = this.worldObj.getDifficulty() != EnumDifficulty.PEACEFUL;
 		
 		if (iblockstate.getBlock() == Blocks.BEDROCK)
 			canspawn = false;

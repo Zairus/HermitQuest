@@ -14,7 +14,7 @@ buildscript {
 }
 apply plugin: 'net.minecraftforge.gradle.forge'
 
-version = "1.1.23"
+version = "1.1.24"
 group= "zairus.hermitquest"
 archivesBaseName = "hermitquest-1.10.2"
 

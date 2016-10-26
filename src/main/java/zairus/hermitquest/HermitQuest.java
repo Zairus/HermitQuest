@@ -46,10 +46,9 @@ public class HermitQuest
 	public void preInit(FMLPreInitializationEvent event)
 	{
 		logger = event.getModLog();
+		HQConfig.init(event.getSuggestedConfigurationFile());
 		
 		HermitQuest.proxy.preInit(event);
-		
-		HQConfig.init(event.getSuggestedConfigurationFile());
 		
 		HQSoundEvents.register();
 	}

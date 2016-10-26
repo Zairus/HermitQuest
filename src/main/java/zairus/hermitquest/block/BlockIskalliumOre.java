@@ -72,14 +72,14 @@ public class BlockIskalliumOre extends BlockBreakable
 				world.setBlockState(targetPos, Blocks.GRAVEL.getDefaultState());
 			else if (world.getBlockState(targetPos).getBlock() == Blocks.GRAVEL)
 				world.setBlockState(targetPos, Blocks.SAND.getDefaultState());
+			else if (world.getBlockState(targetPos).getBlock() == HQBlocks.ISKALLIUM_ORE)
+				world.setBlockState(targetPos, HQBlocks.ISKALLIUM_PROCESSED.getDefaultState());
 			else if (world.getBlockState(targetPos) == Blocks.STONE.getDefaultState().withProperty(BlockStone.VARIANT, BlockStone.EnumType.DIORITE))
 				world.setBlockToAir(targetPos);
 		}
 		
 		if (world.getBlockState(targetPos).getBlock() == Blocks.STONE)
 			world.setBlockState(targetPos, Blocks.COBBLESTONE.getDefaultState());
-		else if (world.getBlockState(targetPos).getBlock() == HQBlocks.ISKALLIUM_ORE)
-			world.setBlockState(targetPos, HQBlocks.ISKALLIUM_PROCESSED.getDefaultState());
 	}
 	
 	@Override
