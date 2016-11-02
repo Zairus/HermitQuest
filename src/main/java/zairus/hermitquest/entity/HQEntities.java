@@ -97,7 +97,6 @@ public class HQEntities
 	
 	public static int getNextEntityId()
 	{
-		++lastEntityId;
-		return lastEntityId;
+		return ++lastEntityId;
 	}
 }
