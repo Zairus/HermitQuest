@@ -13,6 +13,7 @@ import net.minecraftforge.event.terraingen.InitMapGenEvent;
 import net.minecraftforge.event.terraingen.InitMapGenEvent.EventType;
 import net.minecraftforge.event.terraingen.OreGenEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import zairus.hermitquest.HQConfig;
 import zairus.hermitquest.biome.decorate.WorldGenAt;
 import zairus.hermitquest.biome.decorate.WorldGenBuildersChest;
 import zairus.hermitquest.biome.decorate.WorldGenCatLiter;
@@ -40,21 +41,21 @@ public class HQEvents
 		decorations = new ArrayList<WorldGenDecorationBase>();
 		oreDecorations = new ArrayList<WorldGenDecorationBase>();
 		
-		decorations.add(new WorldGenPlant(HQBlocks.PLANT_TEA.getDefaultState().withProperty(BlockPlant.TYPE, 0)).setRarity(60));
-		decorations.add(new WorldGenGoldenLog().setRarity(80));
-		decorations.add(new WorldGenStimpack().setRarity(70));
-		decorations.add(new WorldGenBuildersChest().setRarity(1));
-		decorations.add(new WorldGenWelsHelm().setRarity(200));
-		decorations.add(new WorldGenOceanGlass().setRarity(1));
-		decorations.add(new WorldGenCrown().setRarity(1));
-		decorations.add(new WorldGenCraftedBench().setRarity(10));
-		decorations.add(new WorldGenHighBlock().setBlockState(HQBlocks.CASTLE_DIORITE.getDefaultState()).setStacked(true).setRarity(30));
-		decorations.add(new WorldGenHighBlock().setBlockState(HQBlocks.COSMIC_DUST_WIRE.getDefaultState()).setRarity(5));
-		decorations.add(new WorldGenSnakeLeaves().setRarity(80));
-		decorations.add(new WorldGenCatLiter().setRarity(100));
-		decorations.add(new WorldGenCoffee().setRarity(50));
+		decorations.add(new WorldGenPlant(HQBlocks.PLANT_TEA.getDefaultState().withProperty(BlockPlant.TYPE, 0)).setRarity(HQConfig.generation_tea_plant_rarity));
+		decorations.add(new WorldGenGoldenLog().setRarity(HQConfig.generation_golden_log_rarity));
+		decorations.add(new WorldGenStimpack().setRarity(HQConfig.generation_stimpack_rarity));
+		decorations.add(new WorldGenBuildersChest().setRarity(HQConfig.generation_builders_chest_rarity));
+		decorations.add(new WorldGenWelsHelm().setRarity(HQConfig.generation_wels_helm_rarity));
+		decorations.add(new WorldGenOceanGlass().setRarity(HQConfig.generation_ocean_glass_rarity));
+		decorations.add(new WorldGenCrown().setRarity(HQConfig.generation_golden_crown_rarity));
+		decorations.add(new WorldGenCraftedBench().setRarity(HQConfig.generation_crafted_bench_rarity));
+		decorations.add(new WorldGenHighBlock().setBlockState(HQBlocks.CASTLE_DIORITE.getDefaultState()).setStacked(true).setRarity(HQConfig.generation_castle_diorite_rarity));
+		decorations.add(new WorldGenHighBlock().setBlockState(HQBlocks.COSMIC_DUST_WIRE.getDefaultState()).setRarity(HQConfig.generation_cosmic_dust_rarity));
+		decorations.add(new WorldGenSnakeLeaves().setRarity(HQConfig.generation_snake_leaves_rarity));
+		decorations.add(new WorldGenCatLiter().setRarity(HQConfig.generation_cat_liter_rarity));
+		decorations.add(new WorldGenCoffee().setRarity(HQConfig.generation_cofee_beans_rarity));
 		
-		oreDecorations.add(new WorldGenAt().setRarity(1));
+		oreDecorations.add(new WorldGenAt().setRarity(HQConfig.generation_block_at_rarity));
 	}
 	
 	@SubscribeEvent
@@ -103,35 +104,6 @@ public class HQEvents
 	@SubscribeEvent
 	public void onBrew(PotionBrewEvent.Pre event)
 	{
-		/*
-		ItemStack ingredient = event.getItem(3);
-		
-		if (ingredient.getItem() == Items.SLIME_BALL)
-		{
-			for (int i = 0; i < 3; ++i)
-			{
-				if (event.getItem(i).getItem() == Items.POTIONITEM && event.getItem(i).getItemDamage() == 0)
-				{
-					ItemStack pot = new ItemStack(Items.SPLASH_POTION, 1, 0);
-					
-					NBTTagCompound potTag = new NBTTagCompound();
-					NBTTagList tagList = new NBTTagList();
-					
-					potTag.setByte("Id", (byte)0);
-					potTag.setByte("Amplifier", (byte)1);
-					potTag.setInteger("Duration", 3);
-					potTag.setBoolean("Ambient", false);
-					potTag.setBoolean("ShowParticles", true);
-					
-					tagList.appendTag(potTag);
-					
-					pot.setTagCompound(new NBTTagCompound());
-					pot.getTagCompound().setTag("CustomPotionEffects", tagList);
-					
-					event.setItem(i, pot);
-				}
-			}
-		}
-		*/
+		;
 	}
 }

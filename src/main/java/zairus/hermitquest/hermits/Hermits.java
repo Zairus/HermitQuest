@@ -27,6 +27,7 @@ public enum Hermits
 	
 	,XISUMAVOID("xisumavoid", HQSoundEvents.XISUMA_SAY, HQSoundEvents.XISUMA_HURT, HQSoundEvents.XISUMA_DIE, HQLootTableList.ENTITIES_BOSS_XISUMA)
 	,EVILX("EvilXisuma", HQSoundEvents.EVILXISUMA_SAY, HQSoundEvents.EVILXISUMA_HURT, HQSoundEvents.EVILXISUMA_DIE, HQLootTableList.ENTITIES_BOSS_XISUMA)
+	,ETHO("etho", HQSoundEvents.ETHO_SAY, HQSoundEvents.ETHO_HURT, HQSoundEvents.ETHO_DIE, HQLootTableList.ENTITIES_BOSS_ETHO)
 	
 	;
 	

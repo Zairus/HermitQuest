@@ -27,14 +27,28 @@ public class WorldGenBuildersChest extends WorldGenDecorationBase
 		if (!(rand.nextInt(rarity) == 0))
 			return false;
 		
-		BlockPos cobble = this.findBlockInArea(world, pos, 8, 8, Blocks.COBBLESTONE.getDefaultState(), true);
-		BlockPos furnace = this.findBlockInArea(world, pos, 8, 8, Blocks.FURNACE.getDefaultState(), true);
+		BlockPos furnace = this.findBlockInArea(world, pos, 20, 20, Blocks.FURNACE.getDefaultState(), true);
 		
-		if (!(cobble != null && furnace != null))
+		if (furnace == null)
+			return false;
+		
+		pos = furnace.down();
+		
+		if (world.getBlockState(pos).getBlock() == Blocks.FURNACE)
+			pos = pos.down();
+		
+		pos = this.findBlockInArea(world, pos, 2, 0, Blocks.AIR.getDefaultState(), true);
+		
+		if (pos == null)
 			return false;
 		
 		if (!world.isAirBlock(pos) && world.isAirBlock(pos.up()))
 			pos = pos.up();
+		
+		furnace = this.findBlockInArea(world, pos, 5, 1, HQBlocks.BUILDERS_CHEST.getDefaultState(), true);
+		
+		if (furnace != null)
+			return false;
 		
 		this.setBlockInWorld(world, pos, HQBlocks.BUILDERS_CHEST.getDefaultState());
 		

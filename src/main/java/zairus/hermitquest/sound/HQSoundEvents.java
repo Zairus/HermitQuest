@@ -63,6 +63,9 @@ public class HQSoundEvents
 	public static SoundEvent JESSASSIN_SAY;
 	public static SoundEvent JESSASSIN_HURT;
 	public static SoundEvent JESSASSIN_DIE;
+	public static SoundEvent ETHO_SAY;
+	public static SoundEvent ETHO_HURT;
+	public static SoundEvent ETHO_DIE;
 	
 	public static SoundEvent ROCK_CRACK;
 	public static SoundEvent ITEMUP;
@@ -145,6 +148,9 @@ public class HQSoundEvents
 		JESSASSIN_SAY = MUTE;
 		JESSASSIN_HURT = SoundEvents.ENTITY_PLAYER_HURT;
 		JESSASSIN_DIE = SoundEvents.ENTITY_PLAYER_DEATH;
+		ETHO_SAY = SoundEvents.ENTITY_PLAYER_HURT;
+		ETHO_HURT = SoundEvents.ENTITY_PLAYER_HURT;
+		ETHO_DIE = SoundEvents.ENTITY_PLAYER_HURT;
 		
 		ROCK_CRACK = registerSound("rock_crack");
 		ITEMUP = registerSound("itemup");

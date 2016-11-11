@@ -82,7 +82,7 @@ public class ItemBeamGun extends Item
 	@Override
 	public void onPlayerStoppedUsing(ItemStack stack, World world, EntityLivingBase entity, int timeLeft)
 	{
-		int amount = (int)(((((72000.0F - (float)timeLeft) / 72000.0F) * (float)this.getMaxDamage())) * 50.0F);
+		int amount = (int)(((((72000.0F - (float)timeLeft) / 72000.0F) * (float)this.getMaxDamage(stack))) * 50.0F);
 		
 		stack.damageItem(amount, entity);
 	}

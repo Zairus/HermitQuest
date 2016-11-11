@@ -13,11 +13,6 @@ import zairus.hermitquest.block.HQBlocks;
 
 public class WorldGenCrown extends WorldGenDecorationBase
 {
-	public WorldGenCrown()
-	{
-		super(GenerationType.ANYWHERE);
-	}
-	
 	@Override
 	public List<Biome> getAllowedBiomes()
 	{
@@ -36,14 +31,21 @@ public class WorldGenCrown extends WorldGenDecorationBase
 		if (!(rand.nextInt(rarity) == 0))
 			return false;
 		
-		BlockPos tnt = this.findBlockInArea(world, pos, 15, 15, Blocks.TNT.getDefaultState(), false);
+		pos = new BlockPos(pos.getX(), 60, pos.getY());
+		
+		BlockPos tnt = this.findBlockInArea(world, pos, 20, 20, Blocks.TNT.getDefaultState(), false);
+		
+		if (tnt == null)
+			tnt = this.findBlockInArea(world, pos, 20, 20, Blocks.STAINED_HARDENED_CLAY.getDefaultState(), false);
 		
 		if (tnt == null)
 			return false;
 		
-		if (world.getBlockState(pos).getBlock() == Blocks.SANDSTONE)
+		BlockPos crownPos = tnt.add(10 - rand.nextInt(21), rand.nextInt(10), 10 - rand.nextInt(21));
+		
+		if (world.getBlockState(crownPos).getBlock() == Blocks.SANDSTONE)
 		{
-			return this.setBlockInWorld(world, pos, HQBlocks.CROWN_IN_STONE.getDefaultState());
+			return this.setBlockInWorld(world, crownPos, HQBlocks.CROWN_IN_STONE.getDefaultState());
 		}
 		
 		return false;

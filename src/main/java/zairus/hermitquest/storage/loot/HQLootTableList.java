@@ -24,6 +24,7 @@ public class HQLootTableList
 	public static final ResourceLocation ENTITIES_BOSS_XBCRADTED = LootTableList.register(new ResourceLocation(HQConstants.MODID, "entities/boss_xbcrafted"));
 	public static final ResourceLocation ENTITIES_BOSS_HYPNO = LootTableList.register(new ResourceLocation(HQConstants.MODID, "entities/boss_hypno"));
 	public static final ResourceLocation ENTITIES_BOSS_JESSASSIN = LootTableList.register(new ResourceLocation(HQConstants.MODID, "entities/boss_jessassin"));
+	public static final ResourceLocation ENTITIES_BOSS_ETHO = LootTableList.register(new ResourceLocation(HQConstants.MODID, "entities/boss_etho"));
 	
 	public static final ResourceLocation ENTITIES_JEVIN_SLIME = LootTableList.register(new ResourceLocation(HQConstants.MODID, "entities/jevin_slime"));
 	public static final ResourceLocation ENTITIES_LADY_ZOMBIE = LootTableList.register(new ResourceLocation(HQConstants.MODID, "entities/lady_zombie"));

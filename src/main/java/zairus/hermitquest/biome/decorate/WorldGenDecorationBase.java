@@ -8,6 +8,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.gen.feature.WorldGenerator;
+import zairus.hermitquest.HQConfig;
 import zairus.hermitquest.HermitQuest;
 
 public abstract class WorldGenDecorationBase extends WorldGenerator
@@ -50,7 +51,7 @@ public abstract class WorldGenDecorationBase extends WorldGenerator
 		
 		boolean generated = doGenerate(world, rand, pos);
 		
-		if (generated)
+		if (generated && HQConfig.output_generation_log)
 			HermitQuest.logger.info("generated: [" + this.getClass().getName() + "]" + pos);
 		
 		return generated;

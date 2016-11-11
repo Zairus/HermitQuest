@@ -24,7 +24,7 @@ public class WorldGenCraftedBench extends WorldGenDecorationBase
 		if (!(rand.nextInt(rarity) == 0))
 			return false;
 		
-		BlockPos bench = this.findBlockInArea(world, pos, 15, 15, Blocks.CRAFTING_TABLE.getDefaultState(), true);
+		BlockPos bench = this.findBlockInArea(world, pos, 20, 20, Blocks.CRAFTING_TABLE.getDefaultState(), true);
 		
 		if (bench == null)
 			return false;
