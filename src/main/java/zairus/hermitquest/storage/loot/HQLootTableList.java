@@ -21,7 +21,7 @@ public class HQLootTableList
 	public static final ResourceLocation ENTITIES_BOSS_ZUELJIN = LootTableList.register(new ResourceLocation(HQConstants.MODID, "entities/boss_zueljin"));
 	public static final ResourceLocation ENTITIES_BOSS_GOODTIMESWITHSCAR = LootTableList.register(new ResourceLocation(HQConstants.MODID, "entities/boss_scar"));
 	public static final ResourceLocation ENTITIES_BOSS_CUBFAN135 = LootTableList.register(new ResourceLocation(HQConstants.MODID, "entities/boss_cubfan"));
-	public static final ResourceLocation ENTITIES_BOSS_XBCRADTED = LootTableList.register(new ResourceLocation(HQConstants.MODID, "entities/boss_xbcrafted"));
+	public static final ResourceLocation ENTITIES_BOSS_XBCRAFTED = LootTableList.register(new ResourceLocation(HQConstants.MODID, "entities/boss_xbcrafted"));
 	public static final ResourceLocation ENTITIES_BOSS_HYPNO = LootTableList.register(new ResourceLocation(HQConstants.MODID, "entities/boss_hypno"));
 	public static final ResourceLocation ENTITIES_BOSS_JESSASSIN = LootTableList.register(new ResourceLocation(HQConstants.MODID, "entities/boss_jessassin"));
 	public static final ResourceLocation ENTITIES_BOSS_ETHO = LootTableList.register(new ResourceLocation(HQConstants.MODID, "entities/boss_etho"));
